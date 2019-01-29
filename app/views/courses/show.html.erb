@@ -1,0 +1,17 @@
+<p>
+  <strong>Course name:</strong>
+  <%= @course.course_name %>
+</p>
+
+<p>
+  <strong>Language:</strong>
+  <%= @course.language %>
+</p>
+
+<p>
+  <strong>Learning Language:</strong>
+  <%= @course.learning_language %>
+</p>
+
+<%= link_to 'Edit', edit_course_path(@course) %>
+<%= link_to 'Courses', courses_path %>
